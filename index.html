@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تعليق على الخدمة</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div id="heading">
+    <h1 id=title>صوت العملاء, أخبرنا عن رأيك</h1>
+    <p id="description">نحن نود أن نعلم رأيك عن المتجر, أراء كل عميل ثمية جدًا بالنسبة</p>
+    </div>
+    <div id="main">
+        <form id="survey-form">
+        <div id="input-fields">
+            <label id="name-label"><b>الأسم:</b></label>
+            <input id="name" type="name" name="name" class="form" required placeholder="الأسم ثلاثي"><br>
+            <br>
+            <label id="email-label"><b>البريد الأكتروني:</b></label>
+            <input id="email" type="email" name="email" class="form" required placeholder="example@mail.com"><br>
+            <br>
+            <label id="number-label"><b>العمر:</b></label>
+            <input id="number" type="number" name="number" class="form" min="5" max="99" placeholder="+12">
+        </div>
+        <div id="dropdown-div"><br>
+            <label id="dropdown-label"><strong>أهم مميزة في المتجر</strong></label><br>
+            <select id="dropdown" name="code-lang" class="form">
+                <option value="1">الواجهه</option>
+                <option value="2">خدمة العملاء</option>
+                <option value="3">إنشاء المتجر</option>
+                <option value="4">خرطة المتاجر</option>
+                <option value="5">طرق الدفع</option>
+                <option value="6">الشحن</option>
+                <option value="7">خدمة التواصل الأجتماعي</option>
+                <option value="8">سرعة أستاجابة الأوامر</option>
+                <option value="9">خلو الخدمة من الأخطاء التقنية</option>
+            </select>
+        </div>
+        <div id="button-area">
+            <br>
+            <label id="job-label"><b>الحالة الوظيفية:</b></label><br>
+            <input type="radio" class="radio-inline" name="gender" value="1A" checked>تاجر<br>
+            <input type="radio" class="radio-inline" name="gender" value="2A">خدمة التوصيل<br>
+            <input type="radio" class="radio-inline" name="gender" value="3A">تسويق<br>
+            <input type="radio" class="radio-inline" name="gender" value="4A"> عميل
+          </div>
+          <div id="button-area"><br>
+            <label id="os-label"><b>جهازك:</b></label><br>
+            <input type="checkbox" name="os1" value="PC" checked>حاسوب شخصي<br>
+            <input type="checkbox" name="os2" value="Smart Phone">هاتف ذكي<br>
+            <input type="checkbox" name="0s3" value="Tablet">الحاسوب اللوحي<br>
+          </div>
+
+          <div id="dropdown-div"><br>
+            <label id="dropdown-label"><strong>المميزة التي تحتاج الي تطوير حالياَ</strong></label><br>
+            <select id="dropdown" name="code-lang" class="form">
+                <option value="1">الواجهه</option>
+                <option value="2">خدمة العملاء</option>
+                <option value="3">إنشاء المتجر</option>
+                <option value="4">خرطة المتاجر</option>
+                <option value="5">طرق الدفع</option>
+                <option value="6">الشحن</option>
+                <option value="7">خدمة التواصل الأجتماعي</option>
+                <option value="8">سرعة أستاجابة الأوامر</option>
+                <option value="9">خلو الخدمة من الأخطاء التقنية</option>
+            </select>
+        </div>
+          <div id="button-area"><br><br>
+            <label id="os-label"><b>المتاجر الأكثر زيارة</b></label><br>
+            <input type="checkbox" name="tech1" value="cars">سيارات<br>
+            <input type="checkbox" name="tech2" value="clothes">ملابس<br>
+            <input type="checkbox" name="tech3" value="electronics">أجهزة الأكترونية<br>
+            <input type="checkbox" name="tech3" value="Food">مواد غذائية<br>
+            <input type="checkbox" name="tech3" value="مطاعم">مطاعم<br>
+          </div>
+
+
+          <div id="ending"><br><br>
+            <label id="comments-label">هل لديك أي اقتراح حول هذا الاستطلاع؟</label><br>
+            <textarea style= height:120px;" class="form" placeholder="من فضلك لا تتردد في كتابة مراجعة..."></textarea><br><br>
+            <input id="submit" type="submit"  value="سلم" class="form">
+          </div>
+        </form>
+    </div>
+
+</body>
+</html>
